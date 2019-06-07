@@ -27,4 +27,16 @@
             <version>3.13.2</version>
         </dependency>
     </dependencies>
+         <distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Achyuth</name>
+	      <url>http://ec2-54-153-123-240.us-west-1.compute.amazonaws.com:8081/repository/maven_repo_release/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Achyuth</name>
+	      <url>http://ec2-54-153-123-240.us-west-1.compute.amazonaws.com:8081/repository/maven_repo_snapshots/</url>
+	    </snapshotRepository>
+	</distributionManagement>
 </project>
